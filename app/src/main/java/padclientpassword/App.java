@@ -6,9 +6,9 @@ public class App {
     public static void main(String[] args) {
         System.out.println(
             "Password:" +
-            decrypt());
+            new App().decrypt());
     }
-    public static String decrypt(){
+    public String decrypt(){
         String aespwd = "**Place the Encrypted Password Here**";
         AESSet aSet = new AESSet();
         try {

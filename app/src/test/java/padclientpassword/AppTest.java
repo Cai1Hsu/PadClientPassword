@@ -9,6 +9,6 @@ import static org.junit.jupiter.api.Assertions.*;
 class AppTest {
     @Test void appHasAGreeting() {
         App classUnderTest = new App();
-        assertNotNull(classUnderTest.decrypt(), "the password should be decrypted");
+        assertNotNull(classUnderTest.decrypt(), "app should have a greeting");
     }
 }
